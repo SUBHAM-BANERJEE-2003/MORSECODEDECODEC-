@@ -27,7 +27,7 @@ string morseToEnglish(string morsecode)
 int main(){
     int n;
     cin >> n;
-    for(int i = 0; i < t; i++){
+    for(int i = 0; i < n; i++){
         string morsecode;
         cin >> morsecode;
         cout << morseToEnglish(morsecode);
